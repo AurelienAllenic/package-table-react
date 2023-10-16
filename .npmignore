@@ -1,0 +1,8 @@
+# Fichiers à ignorer lors de la publication sur npm
+
+# Les fichiers source ne sont généralement pas publiés
+/src
+
+# Les fichiers de configuration spécifiques au projet ne sont pas publiés
+.babelrc
+webpack.config.js
