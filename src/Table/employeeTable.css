@@ -1,57 +1,61 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+  }
+  a:hover{
+    cursor: pointer;
+    color: black;
+  }
+  input{
+    border-radius : 5px;
+    border: none;
+    margin-bottom: 5px;
+    padding: 1%;
+  }
+  input:focus{
+    outline: none;
+  }
+  fieldset{
+    border-color: white;
+  }
+  .table-toolbar{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-tables{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    gap: 2rem;
+    width: 90%;
   }
-  a{
-    text-decoration: none;
+  .no-match-found{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5% 0 0 0;
+    text-align: center;
+  }
+  .input-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .link{
     color: white;
-    }
-    a:hover{
-      cursor: pointer;
-      color: black;
-    }
-    input{
-      border-radius : 5px;
-      border: none;
-      margin-bottom: 5px;
-      padding: 1%;
-    }
-    input:focus{
-      outline: none;
-    }
-    fieldset{
-      border-color: white;
-    }
-    .table-toolbar{
-      margin-top: 5%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .container-tables{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-    .no-match-found{
-      font-size: 20px;
-      font-weight: 600;
-      padding: 5% 0 0 0;
-      text-align: center;
-    }
-    .input-search{
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-    }
-    .link{
-      color: white;
-      font-size: 25px;
-    }
-    .link:hover{
-      cursor: pointer;
-      color: black;
-      transition: ease 1s forwards;
-    }
+    font-size: 25px;
+  }
+  .link:hover{
+    cursor: pointer;
+    color: black;
+    transition: ease 1s forwards;
+  }
+  td{
+    text-align: center;
+  }

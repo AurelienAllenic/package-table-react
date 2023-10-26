@@ -1,6 +1,6 @@
 {
   "name": "package-tables-react",
-  "version": "1.0.2",
+  "version": "0.1.5",
   "description": "",
   "main": "EmployeeTable.jsx",
   "scripts": {
